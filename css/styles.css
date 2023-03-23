@@ -1,0 +1,7 @@
+body {}
+
+.section-one {
+    background-image: url("../images/dark-bg.png");
+    /*background-color: #2e2f42*/
+    color: white;
+}
