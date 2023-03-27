@@ -1,22 +1,125 @@
 :root {
-    --text-color: #;
-    --background-color: #;
-    --choose-color: #; 
+    --text-color-main: #434455;
+    --text-color-headers: #2E2F42;
+    /*--background-color: #;
+    --choose-color: #;*/ 
 }
 
-body {}
-
-.section-one {
-    box-sizing: border-box;
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
-
-    color: #fff;
-    background: #;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color-main);
 }
 
+.logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list {
+    list-style: none;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color-headers);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover, .link:focus {
+    color: #4da5e5;
+}
+
+.con {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.head {
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #000;
+}
+
+.btn {
+    cursor: pointer;
+    background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.descr-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #var(--text-color-headers);
+}
+
+.descr {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.section-two-header {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--text-color-headers);
+}
+
+.section-three-header {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--text-color-headers);
+}
+
+.team-member {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--text-color-headers);
+}
+
+.footer {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#000
+/* color: #F4F4FD; */
+}
+
+.pbtn {
+    cursor: pointer;
+    width: 78px;
+height: 48px;
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+}
+
+.pbtn:hover, .pbtn:focus, .pbtn:active {
+    color: #Ffffff;
+    background: #404bbf;
+}
