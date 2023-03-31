@@ -1,13 +1,14 @@
 :root {
     --text-color-main: #434455;
     --text-color-headers: #2E2F42;
-    /*--background-color: #;
-    --choose-color: #;*/ 
+    --background-color: #fff;
+    
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color-main);
+    background-color: var(--background-color);
 }
 
 .logo {
