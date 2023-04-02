@@ -122,10 +122,6 @@ body {
 
 /* ---------------SECTION TWO -------------*/
 
-.section-two {
-    background-color: var(--text-color-headers);
-}
-
 .descr-header {
     font-weight: 500;
     font-size: 20px;
@@ -189,4 +185,6 @@ body {
     letter-spacing: 0.02em;
     
 }
+
+
 /* ---------------/FOOTER--------------- */
