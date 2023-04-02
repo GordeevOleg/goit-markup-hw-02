@@ -5,11 +5,29 @@
     --button-color: #4d5ae5;
 }
 
+/* ---------------DEFAULT SETTINGS -----------------*/
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color-main);
     background-color: var(--background-color);
 }
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+/* ---------------/DEFAULT SETTINGS -----------------*/
+
+/* ---------------HEADER -----------------*/
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -25,24 +43,12 @@ body {
     color: var(--text-color-headers);
 }
 
-.list {
-    list-style: none;
-}
-
 .menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color-headers);
-}
-
-.link {
-    text-decoration: none;
-}
-
-.link:hover, .link:focus {
-    color: #404bbf;
 }
 
 .adr {
@@ -55,6 +61,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color-main);
+}
+/* ---------------/HEADER -----------------*/
+
+/* ---------------SECTION ONE -------------*/
+.section-one {
+    background-color: var(--text-color-headers);
 }
 
 .head {
@@ -80,6 +92,40 @@ body {
     border-radius: 4px;
 }
 
+.pbtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    width: 78px;
+    height: 48px;
+    color: var(--button-color);
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active
+.pbtn:hover,
+.pbtn:focus,
+.pbtn:active {
+    color: var(--background-color);
+    background: #404bbf;
+}
+
+/* ---------------/SECTION ONE -------------*/
+
+
+/* ---------------SECTION TWO -------------*/
+
+.section-two {
+    background-color: var(--text-color-headers);
+}
+
 .descr-header {
     font-weight: 500;
     font-size: 20px;
@@ -94,6 +140,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* ---------------/SECTION TWO -------------*/
+
+/* ---------------SECTION THREE -------------*/
 
 .section-three-header {
     font-weight: 700;
@@ -104,6 +153,9 @@ body {
     text-align: center;
     color: var(--text-color-headers);
 }
+/* ---------------/SECTION THREE -------------*/
+
+/* ---------------SECTION FOUR -------------*/
 
 .section-four-header {
     font-weight: 700;
@@ -122,6 +174,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color-headers);
 }
+/* ---------------/SECTION FOUR -------------*/
+
+/* ---------------FOOTER--------------- */
 
 .foot {
     background-color: var(--text-color-headers);
@@ -134,23 +189,4 @@ body {
     letter-spacing: 0.02em;
     
 }
-
-.pbtn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    width: 78px;
-    height: 48px;
-    color: var(--button-color);
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-}
-
-.pbtn:hover, .pbtn:focus, .pbtn:active {
-    color: var(--background-color);
-    background: #404bbf;
-}
+/* ---------------/FOOTER--------------- */
