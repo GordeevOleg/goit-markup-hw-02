@@ -2,6 +2,7 @@
     --text-color-main: #434455;
     --text-color-headers: #2E2F42;
     --background-color: #Ffffff; 
+    --button-color: #4d5ae5;
 }
 
 body {
@@ -74,7 +75,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--background-color);
     cursor: pointer;
-    background: #4D5AE5;
+    background: var(--button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -89,56 +90,67 @@ body {
 
 .descr {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-.section-two-header {
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--text-color-headers);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-three-header {
     font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--text-color-headers);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--text-color-headers);
+}
+
+.section-four-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #F4F4FD;
 }
 
 .team-member {
     font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--text-color-headers);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color-headers);
+}
+
+.foot {
+    background-color: var(--text-color-headers);
 }
 
 .footer {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:#000
-/* color: #F4F4FD; */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
 }
 
 .pbtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
     width: 78px;
-height: 48px;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
+    height: 48px;
+    color: var(--button-color);
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .pbtn:hover, .pbtn:focus, .pbtn:active {
-    color: #Ffffff;
+    color: var(--background-color);
     background: #404bbf;
 }
