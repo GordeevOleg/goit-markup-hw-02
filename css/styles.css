@@ -1,8 +1,7 @@
 :root {
     --text-color-main: #434455;
     --text-color-headers: #2E2F42;
-    --background-color: #fff;
-    
+    --background-color: #Ffffff; 
 }
 
 body {
@@ -12,11 +11,17 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo1 {
+    color: var(--text-color-headers);
 }
 
 .list {
@@ -36,7 +41,11 @@ body {
 }
 
 .link:hover, .link:focus {
-    color: #4da5e5;
+    color: #404bbf;
+}
+
+.adr {
+    font-style: normal;
 }
 
 .con {
@@ -44,21 +53,30 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--text-color-main);
 }
 
 .head {
     font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: #000;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    background-color: var(--text-color-headers);
+    text-align: center;
+    color: var(--background-color);
 }
 
 .btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--background-color);
     cursor: pointer;
     background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .descr-header {
@@ -66,7 +84,7 @@ border-radius: 4px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #var(--text-color-headers);
+    color: var(--text-color-headers);
 }
 
 .descr {
